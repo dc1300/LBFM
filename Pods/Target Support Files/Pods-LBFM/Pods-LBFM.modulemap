@@ -1,0 +1,6 @@
+framework module Pods_LBFM {
+  umbrella header "Pods-LBFM-umbrella.h"
+
+  export *
+  module * { export * }
+}

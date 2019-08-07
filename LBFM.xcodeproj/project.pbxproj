@@ -8,12 +8,60 @@
 
 /* Begin PBXBuildFile section */
 		C1AAC50E22FA614C006059A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC50D22FA614C006059A9 /* AppDelegate.swift */; };
-		C1AAC51022FA614C006059A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC50F22FA614C006059A9 /* ViewController.swift */; };
 		C1AAC51322FA614C006059A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1AAC51122FA614C006059A9 /* Main.storyboard */; };
 		C1AAC51522FA614D006059A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1AAC51422FA614D006059A9 /* Assets.xcassets */; };
 		C1AAC51822FA614D006059A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1AAC51622FA614D006059A9 /* LaunchScreen.storyboard */; };
 		C1AAC52322FA614D006059A9 /* LBFMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC52222FA614D006059A9 /* LBFMTests.swift */; };
 		C1AAC52E22FA614D006059A9 /* LBFMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC52D22FA614D006059A9 /* LBFMUITests.swift */; };
+		C1AAC53D22FA78E9006059A9 /* LBFMHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC53C22FA78E9006059A9 /* LBFMHomeController.swift */; };
+		C1AAC54322FA79B4006059A9 /* LBFMListenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC54222FA79B4006059A9 /* LBFMListenController.swift */; };
+		C1AAC54522FA79BF006059A9 /* LBFMMineController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC54422FA79BF006059A9 /* LBFMMineController.swift */; };
+		C1AAC54722FA79C7006059A9 /* LBFMFindController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC54622FA79C7006059A9 /* LBFMFindController.swift */; };
+		C1AAC54922FA79D1006059A9 /* LBFMPlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC54822FA79D1006059A9 /* LBFMPlayController.swift */; };
+		C1AAC54C22FAA137006059A9 /* LBFMNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC54B22FAA137006059A9 /* LBFMNavigationController.swift */; };
+		C1AAC56C22FAA30A006059A9 /* ReplicatorLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC56222FAA30A006059A9 /* ReplicatorLayer.swift */; };
+		C1AAC56D22FAA30A006059A9 /* ReplicatorLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC56222FAA30A006059A9 /* ReplicatorLayer.swift */; };
+		C1AAC56E22FAA30A006059A9 /* ReplicatorLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC56222FAA30A006059A9 /* ReplicatorLayer.swift */; };
+		C1AAC56F22FAA30A006059A9 /* LBFMCustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC56422FAA30A006059A9 /* LBFMCustomLabel.swift */; };
+		C1AAC57022FAA30A006059A9 /* LBFMCustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC56422FAA30A006059A9 /* LBFMCustomLabel.swift */; };
+		C1AAC57122FAA30A006059A9 /* LBFMCustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC56422FAA30A006059A9 /* LBFMCustomLabel.swift */; };
+		C1AAC57222FAA30A006059A9 /* WRNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC56622FAA30A006059A9 /* WRNavigationBar.swift */; };
+		C1AAC57322FAA30A006059A9 /* WRNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC56622FAA30A006059A9 /* WRNavigationBar.swift */; };
+		C1AAC57422FAA30A006059A9 /* WRNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC56622FAA30A006059A9 /* WRNavigationBar.swift */; };
+		C1AAC57522FAA30A006059A9 /* WRCustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC56722FAA30A006059A9 /* WRCustomNavigationBar.swift */; };
+		C1AAC57622FAA30A006059A9 /* WRCustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC56722FAA30A006059A9 /* WRCustomNavigationBar.swift */; };
+		C1AAC57722FAA30A006059A9 /* WRCustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC56722FAA30A006059A9 /* WRCustomNavigationBar.swift */; };
+		C1AAC57822FAA30A006059A9 /* WRProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC56922FAA30A006059A9 /* WRProxy.swift */; };
+		C1AAC57922FAA30A006059A9 /* WRProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC56922FAA30A006059A9 /* WRProxy.swift */; };
+		C1AAC57A22FAA30A006059A9 /* WRProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC56922FAA30A006059A9 /* WRProxy.swift */; };
+		C1AAC57B22FAA30A006059A9 /* WRCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC56A22FAA30A006059A9 /* WRCycleScrollView.swift */; };
+		C1AAC57C22FAA30A006059A9 /* WRCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC56A22FAA30A006059A9 /* WRCycleScrollView.swift */; };
+		C1AAC57D22FAA30A006059A9 /* WRCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC56A22FAA30A006059A9 /* WRCycleScrollView.swift */; };
+		C1AAC57E22FAA30A006059A9 /* WRCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC56B22FAA30A006059A9 /* WRCycleCell.swift */; };
+		C1AAC57F22FAA30A006059A9 /* WRCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC56B22FAA30A006059A9 /* WRCycleCell.swift */; };
+		C1AAC58022FAA30A006059A9 /* WRCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC56B22FAA30A006059A9 /* WRCycleCell.swift */; };
+		C1AAC58322FAA9E2006059A9 /* LBFMHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC58222FAA9E2006059A9 /* LBFMHeader.swift */; };
+		C1AAC58422FAA9E2006059A9 /* LBFMHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC58222FAA9E2006059A9 /* LBFMHeader.swift */; };
+		C1AAC58522FAA9E2006059A9 /* LBFMHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC58222FAA9E2006059A9 /* LBFMHeader.swift */; };
+		C1AAC58722FABA2E006059A9 /* LBFMIrregularityBasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC58622FABA2D006059A9 /* LBFMIrregularityBasicContentView.swift */; };
+		C1AAC58822FABA2E006059A9 /* LBFMIrregularityBasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC58622FABA2D006059A9 /* LBFMIrregularityBasicContentView.swift */; };
+		C1AAC58922FABA2E006059A9 /* LBFMIrregularityBasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC58622FABA2D006059A9 /* LBFMIrregularityBasicContentView.swift */; };
+		C1AAC5AF22FAC0F3006059A9 /* LBFMHomeRecommendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC5AE22FAC0F3006059A9 /* LBFMHomeRecommendController.swift */; };
+		C1AAC5B022FAC0F3006059A9 /* LBFMHomeRecommendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC5AE22FAC0F3006059A9 /* LBFMHomeRecommendController.swift */; };
+		C1AAC5B122FAC0F3006059A9 /* LBFMHomeRecommendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC5AE22FAC0F3006059A9 /* LBFMHomeRecommendController.swift */; };
+		C1AAC5B322FAC107006059A9 /* LBFMHomeClassifyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC5B222FAC107006059A9 /* LBFMHomeClassifyController.swift */; };
+		C1AAC5B422FAC107006059A9 /* LBFMHomeClassifyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC5B222FAC107006059A9 /* LBFMHomeClassifyController.swift */; };
+		C1AAC5B522FAC107006059A9 /* LBFMHomeClassifyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC5B222FAC107006059A9 /* LBFMHomeClassifyController.swift */; };
+		C1AAC5B722FAC113006059A9 /* LBFMHomeBroadcastController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC5B622FAC113006059A9 /* LBFMHomeBroadcastController.swift */; };
+		C1AAC5B822FAC113006059A9 /* LBFMHomeBroadcastController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC5B622FAC113006059A9 /* LBFMHomeBroadcastController.swift */; };
+		C1AAC5B922FAC113006059A9 /* LBFMHomeBroadcastController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC5B622FAC113006059A9 /* LBFMHomeBroadcastController.swift */; };
+		C1AAC5BB22FAC11F006059A9 /* LBFMHomeLiveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC5BA22FAC11F006059A9 /* LBFMHomeLiveController.swift */; };
+		C1AAC5BC22FAC11F006059A9 /* LBFMHomeLiveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC5BA22FAC11F006059A9 /* LBFMHomeLiveController.swift */; };
+		C1AAC5BD22FAC11F006059A9 /* LBFMHomeLiveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC5BA22FAC11F006059A9 /* LBFMHomeLiveController.swift */; };
+		C1AAC5BF22FAC12B006059A9 /* LBFMHomeVIPController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC5BE22FAC12B006059A9 /* LBFMHomeVIPController.swift */; };
+		C1AAC5C022FAC12B006059A9 /* LBFMHomeVIPController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC5BE22FAC12B006059A9 /* LBFMHomeVIPController.swift */; };
+		C1AAC5C122FAC12B006059A9 /* LBFMHomeVIPController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC5BE22FAC12B006059A9 /* LBFMHomeVIPController.swift */; };
+		CB0448BE95C063E91BF05C76 /* Pods_LBFM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A34AE83B54A421F32A6A4831 /* Pods_LBFM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +82,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6EA1B015D00B9429529BC6CA /* Pods-LBFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBFM.release.xcconfig"; path = "Target Support Files/Pods-LBFM/Pods-LBFM.release.xcconfig"; sourceTree = "<group>"; };
+		A34AE83B54A421F32A6A4831 /* Pods_LBFM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBFM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1AAC50A22FA614C006059A9 /* LBFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1AAC50D22FA614C006059A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C1AAC50F22FA614C006059A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C1AAC51222FA614C006059A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1AAC51422FA614D006059A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1AAC51722FA614D006059A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +96,27 @@
 		C1AAC52922FA614D006059A9 /* LBFMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBFMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1AAC52D22FA614D006059A9 /* LBFMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMUITests.swift; sourceTree = "<group>"; };
 		C1AAC52F22FA614D006059A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1AAC53C22FA78E9006059A9 /* LBFMHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMHomeController.swift; sourceTree = "<group>"; };
+		C1AAC54222FA79B4006059A9 /* LBFMListenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMListenController.swift; sourceTree = "<group>"; };
+		C1AAC54422FA79BF006059A9 /* LBFMMineController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMMineController.swift; sourceTree = "<group>"; };
+		C1AAC54622FA79C7006059A9 /* LBFMFindController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMFindController.swift; sourceTree = "<group>"; };
+		C1AAC54822FA79D1006059A9 /* LBFMPlayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMPlayController.swift; sourceTree = "<group>"; };
+		C1AAC54B22FAA137006059A9 /* LBFMNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMNavigationController.swift; sourceTree = "<group>"; };
+		C1AAC56222FAA30A006059A9 /* ReplicatorLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplicatorLayer.swift; sourceTree = "<group>"; };
+		C1AAC56422FAA30A006059A9 /* LBFMCustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBFMCustomLabel.swift; sourceTree = "<group>"; };
+		C1AAC56622FAA30A006059A9 /* WRNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRNavigationBar.swift; sourceTree = "<group>"; };
+		C1AAC56722FAA30A006059A9 /* WRCustomNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCustomNavigationBar.swift; sourceTree = "<group>"; };
+		C1AAC56922FAA30A006059A9 /* WRProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRProxy.swift; sourceTree = "<group>"; };
+		C1AAC56A22FAA30A006059A9 /* WRCycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCycleScrollView.swift; sourceTree = "<group>"; };
+		C1AAC56B22FAA30A006059A9 /* WRCycleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCycleCell.swift; sourceTree = "<group>"; };
+		C1AAC58222FAA9E2006059A9 /* LBFMHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBFMHeader.swift; sourceTree = "<group>"; };
+		C1AAC58622FABA2D006059A9 /* LBFMIrregularityBasicContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBFMIrregularityBasicContentView.swift; sourceTree = "<group>"; };
+		C1AAC5AE22FAC0F3006059A9 /* LBFMHomeRecommendController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMHomeRecommendController.swift; sourceTree = "<group>"; };
+		C1AAC5B222FAC107006059A9 /* LBFMHomeClassifyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMHomeClassifyController.swift; sourceTree = "<group>"; };
+		C1AAC5B622FAC113006059A9 /* LBFMHomeBroadcastController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMHomeBroadcastController.swift; sourceTree = "<group>"; };
+		C1AAC5BA22FAC11F006059A9 /* LBFMHomeLiveController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMHomeLiveController.swift; sourceTree = "<group>"; };
+		C1AAC5BE22FAC12B006059A9 /* LBFMHomeVIPController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMHomeVIPController.swift; sourceTree = "<group>"; };
+		DAD80460D7F6D17529D43098 /* Pods-LBFM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBFM.debug.xcconfig"; path = "Target Support Files/Pods-LBFM/Pods-LBFM.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB0448BE95C063E91BF05C76 /* Pods_LBFM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +145,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B49C3FE680564B5CB789498 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAD80460D7F6D17529D43098 /* Pods-LBFM.debug.xcconfig */,
+				6EA1B015D00B9429529BC6CA /* Pods-LBFM.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AE333701B76441BDEC36DFF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A34AE83B54A421F32A6A4831 /* Pods_LBFM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C1AAC50122FA614C006059A9 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +169,8 @@
 				C1AAC52122FA614D006059A9 /* LBFMTests */,
 				C1AAC52C22FA614D006059A9 /* LBFMUITests */,
 				C1AAC50B22FA614C006059A9 /* Products */,
+				7B49C3FE680564B5CB789498 /* Pods */,
+				AE333701B76441BDEC36DFF5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +188,9 @@
 			isa = PBXGroup;
 			children = (
 				C1AAC50D22FA614C006059A9 /* AppDelegate.swift */,
-				C1AAC50F22FA614C006059A9 /* ViewController.swift */,
+				C1AAC58122FAA9D6006059A9 /* Common */,
+				C1AAC54E22FAA2F5006059A9 /* Lib */,
+				C1AAC54D22FAA2CF006059A9 /* Controller */,
 				C1AAC51122FA614C006059A9 /* Main.storyboard */,
 				C1AAC51422FA614D006059A9 /* Assets.xcassets */,
 				C1AAC51622FA614D006059A9 /* LaunchScreen.storyboard */,
@@ -125,6 +217,416 @@
 			path = LBFMUITests;
 			sourceTree = "<group>";
 		};
+		C1AAC53B22FA78C5006059A9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C1AAC53C22FA78E9006059A9 /* LBFMHomeController.swift */,
+				C1AAC59622FABDDF006059A9 /* 分类 */,
+				C1AAC5A822FABDDF006059A9 /* 广播 */,
+				C1AAC59022FABDDF006059A9 /* 推荐 */,
+				C1AAC59C22FABDDF006059A9 /* 直播 */,
+				C1AAC58A22FABDDF006059A9 /* VIP */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C1AAC53E22FA7969006059A9 /* Listen */ = {
+			isa = PBXGroup;
+			children = (
+				C1AAC54222FA79B4006059A9 /* LBFMListenController.swift */,
+			);
+			path = Listen;
+			sourceTree = "<group>";
+		};
+		C1AAC53F22FA7982006059A9 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				C1AAC54422FA79BF006059A9 /* LBFMMineController.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		C1AAC54022FA798A006059A9 /* Play */ = {
+			isa = PBXGroup;
+			children = (
+				C1AAC54822FA79D1006059A9 /* LBFMPlayController.swift */,
+			);
+			path = Play;
+			sourceTree = "<group>";
+		};
+		C1AAC54122FA79A9006059A9 /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				C1AAC54622FA79C7006059A9 /* LBFMFindController.swift */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		C1AAC54A22FAA11B006059A9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C1AAC54B22FAA137006059A9 /* LBFMNavigationController.swift */,
+				C1AAC58622FABA2D006059A9 /* LBFMIrregularityBasicContentView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C1AAC54D22FAA2CF006059A9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C1AAC54A22FAA11B006059A9 /* Main */,
+				C1AAC53B22FA78C5006059A9 /* Home */,
+				C1AAC53E22FA7969006059A9 /* Listen */,
+				C1AAC54022FA798A006059A9 /* Play */,
+				C1AAC54122FA79A9006059A9 /* Find */,
+				C1AAC53F22FA7982006059A9 /* Mine */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C1AAC54E22FAA2F5006059A9 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				C1AAC56322FAA30A006059A9 /* CustomLabel */,
+				C1AAC56122FAA30A006059A9 /* ReplicatorLayer */,
+				C1AAC56522FAA30A006059A9 /* WRNavigationBar */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		C1AAC56122FAA30A006059A9 /* ReplicatorLayer */ = {
+			isa = PBXGroup;
+			children = (
+				C1AAC56222FAA30A006059A9 /* ReplicatorLayer.swift */,
+			);
+			path = ReplicatorLayer;
+			sourceTree = "<group>";
+		};
+		C1AAC56322FAA30A006059A9 /* CustomLabel */ = {
+			isa = PBXGroup;
+			children = (
+				C1AAC56422FAA30A006059A9 /* LBFMCustomLabel.swift */,
+			);
+			path = CustomLabel;
+			sourceTree = "<group>";
+		};
+		C1AAC56522FAA30A006059A9 /* WRNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				C1AAC56622FAA30A006059A9 /* WRNavigationBar.swift */,
+				C1AAC56722FAA30A006059A9 /* WRCustomNavigationBar.swift */,
+				C1AAC56822FAA30A006059A9 /* WRCycleScrollView */,
+			);
+			name = WRNavigationBar;
+			path = "../../../../GitCode/LBXMLYFM-Swift/LBFM-Swift/Lib/WRNavigationBar";
+			sourceTree = "<group>";
+		};
+		C1AAC56822FAA30A006059A9 /* WRCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				C1AAC56922FAA30A006059A9 /* WRProxy.swift */,
+				C1AAC56A22FAA30A006059A9 /* WRCycleScrollView.swift */,
+				C1AAC56B22FAA30A006059A9 /* WRCycleCell.swift */,
+			);
+			path = WRCycleScrollView;
+			sourceTree = "<group>";
+		};
+		C1AAC58122FAA9D6006059A9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C1AAC58222FAA9E2006059A9 /* LBFMHeader.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C1AAC58A22FABDDF006059A9 /* VIP */ = {
+			isa = PBXGroup;
+			children = (
+				C1AAC58B22FABDDF006059A9 /* ViewModel */,
+				C1AAC58C22FABDDF006059A9 /* Controller */,
+				C1AAC58D22FABDDF006059A9 /* Model */,
+				C1AAC58E22FABDDF006059A9 /* View */,
+				C1AAC58F22FABDDF006059A9 /* API */,
+				C1AAC5BE22FAC12B006059A9 /* LBFMHomeVIPController.swift */,
+			);
+			path = VIP;
+			sourceTree = "<group>";
+		};
+		C1AAC58B22FABDDF006059A9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C1AAC58C22FABDDF006059A9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C1AAC58D22FABDDF006059A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C1AAC58E22FABDDF006059A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C1AAC58F22FABDDF006059A9 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		C1AAC59022FABDDF006059A9 /* 推荐 */ = {
+			isa = PBXGroup;
+			children = (
+				C1AAC5AE22FAC0F3006059A9 /* LBFMHomeRecommendController.swift */,
+				C1AAC59122FABDDF006059A9 /* ViewModel */,
+				C1AAC59222FABDDF006059A9 /* Controller */,
+				C1AAC59322FABDDF006059A9 /* Model */,
+				C1AAC59422FABDDF006059A9 /* View */,
+				C1AAC59522FABDDF006059A9 /* API */,
+			);
+			path = "推荐";
+			sourceTree = "<group>";
+		};
+		C1AAC59122FABDDF006059A9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C1AAC59222FABDDF006059A9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C1AAC59322FABDDF006059A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C1AAC59422FABDDF006059A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C1AAC59522FABDDF006059A9 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		C1AAC59622FABDDF006059A9 /* 分类 */ = {
+			isa = PBXGroup;
+			children = (
+				C1AAC5B222FAC107006059A9 /* LBFMHomeClassifyController.swift */,
+				C1AAC59722FABDDF006059A9 /* ViewModel */,
+				C1AAC59822FABDDF006059A9 /* Controller */,
+				C1AAC59922FABDDF006059A9 /* Model */,
+				C1AAC59A22FABDDF006059A9 /* View */,
+				C1AAC59B22FABDDF006059A9 /* API */,
+			);
+			path = "分类";
+			sourceTree = "<group>";
+		};
+		C1AAC59722FABDDF006059A9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C1AAC59822FABDDF006059A9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C1AAC59922FABDDF006059A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C1AAC59A22FABDDF006059A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C1AAC59B22FABDDF006059A9 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		C1AAC59C22FABDDF006059A9 /* 直播 */ = {
+			isa = PBXGroup;
+			children = (
+				C1AAC59D22FABDDF006059A9 /* ViewModel */,
+				C1AAC59E22FABDDF006059A9 /* 1 */,
+				C1AAC5A422FABDDF006059A9 /* Controller */,
+				C1AAC5A522FABDDF006059A9 /* Model */,
+				C1AAC5A622FABDDF006059A9 /* View */,
+				C1AAC5A722FABDDF006059A9 /* API */,
+				C1AAC5BA22FAC11F006059A9 /* LBFMHomeLiveController.swift */,
+			);
+			path = "直播";
+			sourceTree = "<group>";
+		};
+		C1AAC59D22FABDDF006059A9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C1AAC59E22FABDDF006059A9 /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				C1AAC59F22FABDDF006059A9 /* ViewModel */,
+				C1AAC5A022FABDDF006059A9 /* Controller */,
+				C1AAC5A122FABDDF006059A9 /* Model */,
+				C1AAC5A222FABDDF006059A9 /* View */,
+				C1AAC5A322FABDDF006059A9 /* API */,
+			);
+			path = 1;
+			sourceTree = "<group>";
+		};
+		C1AAC59F22FABDDF006059A9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C1AAC5A022FABDDF006059A9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C1AAC5A122FABDDF006059A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C1AAC5A222FABDDF006059A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C1AAC5A322FABDDF006059A9 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		C1AAC5A422FABDDF006059A9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C1AAC5A522FABDDF006059A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C1AAC5A622FABDDF006059A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C1AAC5A722FABDDF006059A9 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		C1AAC5A822FABDDF006059A9 /* 广播 */ = {
+			isa = PBXGroup;
+			children = (
+				C1AAC5A922FABDDF006059A9 /* ViewModel */,
+				C1AAC5AA22FABDDF006059A9 /* Controller */,
+				C1AAC5AB22FABDDF006059A9 /* Model */,
+				C1AAC5AC22FABDDF006059A9 /* View */,
+				C1AAC5AD22FABDDF006059A9 /* API */,
+				C1AAC5B622FAC113006059A9 /* LBFMHomeBroadcastController.swift */,
+			);
+			path = "广播";
+			sourceTree = "<group>";
+		};
+		C1AAC5A922FABDDF006059A9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C1AAC5AA22FABDDF006059A9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C1AAC5AB22FABDDF006059A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C1AAC5AC22FABDDF006059A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C1AAC5AD22FABDDF006059A9 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +634,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1AAC53222FA614D006059A9 /* Build configuration list for PBXNativeTarget "LBFM" */;
 			buildPhases = (
+				1E9807BF326EB02A7110B1D4 /* [CP] Check Pods Manifest.lock */,
 				C1AAC50622FA614C006059A9 /* Sources */,
 				C1AAC50722FA614C006059A9 /* Frameworks */,
 				C1AAC50822FA614C006059A9 /* Resources */,
+				FD42C7E27937E759B4CF65FF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,13 +755,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E9807BF326EB02A7110B1D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LBFM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD42C7E27937E759B4CF65FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LBFM/Pods-LBFM-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DNSPageView/DNSPageView.framework",
+				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/JXMarqueeView/JXMarqueeView.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/LTScrollView/LTScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/StreamingKit/StreamingKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DNSPageView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSPagerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JXMarqueeView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LTScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StreamingKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LBFM/Pods-LBFM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C1AAC50622FA614C006059A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1AAC51022FA614C006059A9 /* ViewController.swift in Sources */,
+				C1AAC57B22FAA30A006059A9 /* WRCycleScrollView.swift in Sources */,
+				C1AAC57522FAA30A006059A9 /* WRCustomNavigationBar.swift in Sources */,
+				C1AAC57222FAA30A006059A9 /* WRNavigationBar.swift in Sources */,
+				C1AAC57E22FAA30A006059A9 /* WRCycleCell.swift in Sources */,
+				C1AAC5B322FAC107006059A9 /* LBFMHomeClassifyController.swift in Sources */,
+				C1AAC58322FAA9E2006059A9 /* LBFMHeader.swift in Sources */,
+				C1AAC54722FA79C7006059A9 /* LBFMFindController.swift in Sources */,
+				C1AAC57822FAA30A006059A9 /* WRProxy.swift in Sources */,
+				C1AAC54522FA79BF006059A9 /* LBFMMineController.swift in Sources */,
+				C1AAC56C22FAA30A006059A9 /* ReplicatorLayer.swift in Sources */,
+				C1AAC54322FA79B4006059A9 /* LBFMListenController.swift in Sources */,
+				C1AAC5B722FAC113006059A9 /* LBFMHomeBroadcastController.swift in Sources */,
+				C1AAC54C22FAA137006059A9 /* LBFMNavigationController.swift in Sources */,
+				C1AAC54922FA79D1006059A9 /* LBFMPlayController.swift in Sources */,
+				C1AAC53D22FA78E9006059A9 /* LBFMHomeController.swift in Sources */,
+				C1AAC58722FABA2E006059A9 /* LBFMIrregularityBasicContentView.swift in Sources */,
 				C1AAC50E22FA614C006059A9 /* AppDelegate.swift in Sources */,
+				C1AAC5BB22FAC11F006059A9 /* LBFMHomeLiveController.swift in Sources */,
+				C1AAC5BF22FAC12B006059A9 /* LBFMHomeVIPController.swift in Sources */,
+				C1AAC5AF22FAC0F3006059A9 /* LBFMHomeRecommendController.swift in Sources */,
+				C1AAC56F22FAA30A006059A9 /* LBFMCustomLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +865,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1AAC5C022FAC12B006059A9 /* LBFMHomeVIPController.swift in Sources */,
+				C1AAC57C22FAA30A006059A9 /* WRCycleScrollView.swift in Sources */,
+				C1AAC58822FABA2E006059A9 /* LBFMIrregularityBasicContentView.swift in Sources */,
+				C1AAC56D22FAA30A006059A9 /* ReplicatorLayer.swift in Sources */,
 				C1AAC52322FA614D006059A9 /* LBFMTests.swift in Sources */,
+				C1AAC57322FAA30A006059A9 /* WRNavigationBar.swift in Sources */,
+				C1AAC5BC22FAC11F006059A9 /* LBFMHomeLiveController.swift in Sources */,
+				C1AAC57922FAA30A006059A9 /* WRProxy.swift in Sources */,
+				C1AAC57F22FAA30A006059A9 /* WRCycleCell.swift in Sources */,
+				C1AAC57622FAA30A006059A9 /* WRCustomNavigationBar.swift in Sources */,
+				C1AAC58422FAA9E2006059A9 /* LBFMHeader.swift in Sources */,
+				C1AAC5B022FAC0F3006059A9 /* LBFMHomeRecommendController.swift in Sources */,
+				C1AAC5B822FAC113006059A9 /* LBFMHomeBroadcastController.swift in Sources */,
+				C1AAC5B422FAC107006059A9 /* LBFMHomeClassifyController.swift in Sources */,
+				C1AAC57022FAA30A006059A9 /* LBFMCustomLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +887,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1AAC5C122FAC12B006059A9 /* LBFMHomeVIPController.swift in Sources */,
+				C1AAC57D22FAA30A006059A9 /* WRCycleScrollView.swift in Sources */,
+				C1AAC58922FABA2E006059A9 /* LBFMIrregularityBasicContentView.swift in Sources */,
+				C1AAC56E22FAA30A006059A9 /* ReplicatorLayer.swift in Sources */,
 				C1AAC52E22FA614D006059A9 /* LBFMUITests.swift in Sources */,
+				C1AAC57422FAA30A006059A9 /* WRNavigationBar.swift in Sources */,
+				C1AAC5BD22FAC11F006059A9 /* LBFMHomeLiveController.swift in Sources */,
+				C1AAC57A22FAA30A006059A9 /* WRProxy.swift in Sources */,
+				C1AAC58022FAA30A006059A9 /* WRCycleCell.swift in Sources */,
+				C1AAC57722FAA30A006059A9 /* WRCustomNavigationBar.swift in Sources */,
+				C1AAC58522FAA9E2006059A9 /* LBFMHeader.swift in Sources */,
+				C1AAC5B122FAC0F3006059A9 /* LBFMHomeRecommendController.swift in Sources */,
+				C1AAC5B922FAC113006059A9 /* LBFMHomeBroadcastController.swift in Sources */,
+				C1AAC5B522FAC107006059A9 /* LBFMHomeClassifyController.swift in Sources */,
+				C1AAC57122FAA30A006059A9 /* LBFMCustomLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +1058,7 @@
 		};
 		C1AAC53322FA614D006059A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAD80460D7F6D17529D43098 /* Pods-LBFM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +1077,7 @@
 		};
 		C1AAC53422FA614D006059A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EA1B015D00B9429529BC6CA /* Pods-LBFM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

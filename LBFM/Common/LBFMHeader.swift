@@ -23,9 +23,27 @@ let LBFMDownColor = UIColor.init(red: 240/255.0, green: 241/255.0, blue: 244/255
 
 
 // iphone X
-let isIphoneX = LBFMScreenHeight == 812 ? true : false
+let isIphoneX = LBFMScreenHeight >= 812 ? true : false
 // LBFMNavBarHeight
-let LBFMNavBarHeight : CGFloat = isIphoneX ? 88 : 64
+let LBFMNavBarHeight : CGFloat =  __kStatusBarHeight__ + 44
 // LBFMTabBarHeight
-let LBFMTabBarHeight : CGFloat = isIphoneX ? 49 + 34 : 49
+let LBFMTabBarHeight : CGFloat = safeAreaInsetsBottom()
+    //isIphoneX ? 49 + 34 : 49
 
+
+let __kStatusBarHeight__ = UIApplication.shared.statusBarFrame.size.height
+let __kNavigationBarHeight__ = __kStatusBarHeight__ + 44
+let __kTabbarSafeBottomMargin__ = safeAreaInsetsBottom()
+
+func RGBCOLOR(r:CGFloat,_ g:CGFloat,_ b:CGFloat) -> UIColor
+{
+    return UIColor(red: (r)/255.0, green: (g)/255.0, blue: (b)/255.0, alpha: 1.0)
+}
+func safeAreaInsetsBottom() -> CGFloat {
+    if #available(iOS 11.0, *) {
+        let safeAreaInsets = UIApplication.shared.keyWindow?.safeAreaInsets
+        return safeAreaInsets!.bottom
+    }else{
+        return 0
+    }
+}

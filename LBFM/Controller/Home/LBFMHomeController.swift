@@ -7,24 +7,39 @@
 //
 
 import UIKit
-
+import DNSPageView
 class LBFMHomeController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        setupPageStyle()
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func setupPageStyle(){
+        let style = DNSPageStyle.init()
+        style.isTitleViewScrollEnabled = false
+        style.isTitleScaleEnabled = false
+        style.isShowBottomLine = true
+        style.titleSelectedColor = UIColor.black
+        style.titleColor = UIColor.gray
+        style.bottomLineColor = LBFMButtonColor
+        style.bottomLineHeight = 2
+        
+        let titles = ["推荐","分类","VIP","直播","广播"]
+        let viewControllers:[UIViewController] = [
+            LBFMHomeRecommendController.init(),
+            LBFMHomeClassifyController.init(),
+            LBFMHomeVIPController.init(),
+            LBFMHomeLiveController.init(),
+            LBFMHomeBroadcastController.init()
+        ]
+        for vc in viewControllers {
+            self.addChild(vc)
+        }
+        let pageView = DNSPageView.init(frame: CGRect.init(x: 0, y: LBFMNavBarHeight, width: LBFMScreenWidth, height: LBFMScreenHeight-44-LBFMNavBarHeight), style: style, titles: titles, childViewControllers: viewControllers)
+        pageView.contentView.backgroundColor = UIColor.red
+        view.addSubview(pageView)
     }
-    */
 
 }

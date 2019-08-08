@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C17800E022FBAE6D004007FF /* LBFMHomeClassifyHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17800DF22FBAE6D004007FF /* LBFMHomeClassifyHeaderView.swift */; };
+		C17800E222FBAE76004007FF /* LBFMHomeClassifyFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17800E122FBAE76004007FF /* LBFMHomeClassifyFooterView.swift */; };
+		C17800E422FBAE87004007FF /* LBFMHomeClassifyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17800E322FBAE87004007FF /* LBFMHomeClassifyCell.swift */; };
+		C17800E622FBBBEA004007FF /* LBFMHomeClassifyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17800E522FBBBEA004007FF /* LBFMHomeClassifyModel.swift */; };
+		C17800E822FBC514004007FF /* LBFMHomeClassifyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17800E722FBC514004007FF /* LBFMHomeClassifyViewModel.swift */; };
+		C17800EA22FBC5F9004007FF /* LBFMHomeClassifProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17800E922FBC5F9004007FF /* LBFMHomeClassifProvider.swift */; };
+		C17800F222FC0C73004007FF /* LBFMClassifySubMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17800F122FC0C73004007FF /* LBFMClassifySubMenuController.swift */; };
+		C17800F422FC10A6004007FF /* LBFMClassifySubMenuProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17800F322FC10A6004007FF /* LBFMClassifySubMenuProvider.swift */; };
+		C17800F622FC1541004007FF /* LBFMClassifySubMenuCategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17800F522FC1541004007FF /* LBFMClassifySubMenuCategoryModel.swift */; };
+		C17800F822FC1889004007FF /* LBFMClassifySubContentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17800F722FC1889004007FF /* LBFMClassifySubContentController.swift */; };
+		C17800FA22FC1968004007FF /* LBFMClassifySubRecommendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17800F922FC1968004007FF /* LBFMClassifySubRecommendController.swift */; };
+		C17800FD22FC1B10004007FF /* URefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17800FC22FC1B10004007FF /* URefresh.swift */; };
+		C17800FF22FC23DA004007FF /* LBFMClassifySubVerticalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17800FE22FC23DA004007FF /* LBFMClassifySubVerticalCell.swift */; };
 		C1AAC50E22FA614C006059A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC50D22FA614C006059A9 /* AppDelegate.swift */; };
 		C1AAC51322FA614C006059A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1AAC51122FA614C006059A9 /* Main.storyboard */; };
 		C1AAC51522FA614D006059A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1AAC51422FA614D006059A9 /* Assets.xcassets */; };
@@ -84,6 +97,19 @@
 /* Begin PBXFileReference section */
 		6EA1B015D00B9429529BC6CA /* Pods-LBFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBFM.release.xcconfig"; path = "Target Support Files/Pods-LBFM/Pods-LBFM.release.xcconfig"; sourceTree = "<group>"; };
 		A34AE83B54A421F32A6A4831 /* Pods_LBFM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBFM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C17800DF22FBAE6D004007FF /* LBFMHomeClassifyHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMHomeClassifyHeaderView.swift; sourceTree = "<group>"; };
+		C17800E122FBAE76004007FF /* LBFMHomeClassifyFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMHomeClassifyFooterView.swift; sourceTree = "<group>"; };
+		C17800E322FBAE87004007FF /* LBFMHomeClassifyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMHomeClassifyCell.swift; sourceTree = "<group>"; };
+		C17800E522FBBBEA004007FF /* LBFMHomeClassifyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMHomeClassifyModel.swift; sourceTree = "<group>"; };
+		C17800E722FBC514004007FF /* LBFMHomeClassifyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMHomeClassifyViewModel.swift; sourceTree = "<group>"; };
+		C17800E922FBC5F9004007FF /* LBFMHomeClassifProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMHomeClassifProvider.swift; sourceTree = "<group>"; };
+		C17800F122FC0C73004007FF /* LBFMClassifySubMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMClassifySubMenuController.swift; sourceTree = "<group>"; };
+		C17800F322FC10A6004007FF /* LBFMClassifySubMenuProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMClassifySubMenuProvider.swift; sourceTree = "<group>"; };
+		C17800F522FC1541004007FF /* LBFMClassifySubMenuCategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMClassifySubMenuCategoryModel.swift; sourceTree = "<group>"; };
+		C17800F722FC1889004007FF /* LBFMClassifySubContentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMClassifySubContentController.swift; sourceTree = "<group>"; };
+		C17800F922FC1968004007FF /* LBFMClassifySubRecommendController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMClassifySubRecommendController.swift; sourceTree = "<group>"; };
+		C17800FC22FC1B10004007FF /* URefresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URefresh.swift; sourceTree = "<group>"; };
+		C17800FE22FC23DA004007FF /* LBFMClassifySubVerticalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMClassifySubVerticalCell.swift; sourceTree = "<group>"; };
 		C1AAC50A22FA614C006059A9 /* LBFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1AAC50D22FA614C006059A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1AAC51222FA614C006059A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -160,6 +186,67 @@
 				A34AE83B54A421F32A6A4831 /* Pods_LBFM.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C17800EB22FC0C13004007FF /* 二级分类 */ = {
+			isa = PBXGroup;
+			children = (
+				C17800EC22FC0C1D004007FF /* Controller */,
+				C17800ED22FC0C2C004007FF /* API */,
+				C17800F022FC0C45004007FF /* ViewModel */,
+				C17800EF22FC0C40004007FF /* View */,
+				C17800EE22FC0C3A004007FF /* Model */,
+			);
+			path = "二级分类";
+			sourceTree = "<group>";
+		};
+		C17800EC22FC0C1D004007FF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C17800F122FC0C73004007FF /* LBFMClassifySubMenuController.swift */,
+				C17800F722FC1889004007FF /* LBFMClassifySubContentController.swift */,
+				C17800F922FC1968004007FF /* LBFMClassifySubRecommendController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C17800ED22FC0C2C004007FF /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C17800F322FC10A6004007FF /* LBFMClassifySubMenuProvider.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		C17800EE22FC0C3A004007FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C17800F522FC1541004007FF /* LBFMClassifySubMenuCategoryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C17800EF22FC0C40004007FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C17800FE22FC23DA004007FF /* LBFMClassifySubVerticalCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C17800F022FC0C45004007FF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C17800FB22FC1AED004007FF /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				C17800FC22FC1B10004007FF /* URefresh.swift */,
+			);
+			path = Refresh;
 			sourceTree = "<group>";
 		};
 		C1AAC50122FA614C006059A9 = {
@@ -287,6 +374,7 @@
 		C1AAC54E22FAA2F5006059A9 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				C17800FB22FC1AED004007FF /* Refresh */,
 				C1AAC56322FAA30A006059A9 /* CustomLabel */,
 				C1AAC56122FAA30A006059A9 /* ReplicatorLayer */,
 				C1AAC56522FAA30A006059A9 /* WRNavigationBar */,
@@ -439,6 +527,7 @@
 			isa = PBXGroup;
 			children = (
 				C1AAC5B222FAC107006059A9 /* LBFMHomeClassifyController.swift */,
+				C17800EB22FC0C13004007FF /* 二级分类 */,
 				C1AAC59722FABDDF006059A9 /* ViewModel */,
 				C1AAC59822FABDDF006059A9 /* Controller */,
 				C1AAC59922FABDDF006059A9 /* Model */,
@@ -451,6 +540,7 @@
 		C1AAC59722FABDDF006059A9 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				C17800E722FBC514004007FF /* LBFMHomeClassifyViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -465,6 +555,7 @@
 		C1AAC59922FABDDF006059A9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C17800E522FBBBEA004007FF /* LBFMHomeClassifyModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -472,6 +563,9 @@
 		C1AAC59A22FABDDF006059A9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C17800DF22FBAE6D004007FF /* LBFMHomeClassifyHeaderView.swift */,
+				C17800E122FBAE76004007FF /* LBFMHomeClassifyFooterView.swift */,
+				C17800E322FBAE87004007FF /* LBFMHomeClassifyCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -479,6 +573,7 @@
 		C1AAC59B22FABDDF006059A9 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				C17800E922FBC5F9004007FF /* LBFMHomeClassifProvider.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -839,10 +934,19 @@
 			files = (
 				C1AAC57B22FAA30A006059A9 /* WRCycleScrollView.swift in Sources */,
 				C1AAC57522FAA30A006059A9 /* WRCustomNavigationBar.swift in Sources */,
+				C17800EA22FBC5F9004007FF /* LBFMHomeClassifProvider.swift in Sources */,
+				C17800FF22FC23DA004007FF /* LBFMClassifySubVerticalCell.swift in Sources */,
+				C17800E022FBAE6D004007FF /* LBFMHomeClassifyHeaderView.swift in Sources */,
 				C1AAC57222FAA30A006059A9 /* WRNavigationBar.swift in Sources */,
 				C1AAC57E22FAA30A006059A9 /* WRCycleCell.swift in Sources */,
+				C17800E422FBAE87004007FF /* LBFMHomeClassifyCell.swift in Sources */,
+				C17800F822FC1889004007FF /* LBFMClassifySubContentController.swift in Sources */,
 				C1AAC5B322FAC107006059A9 /* LBFMHomeClassifyController.swift in Sources */,
+				C17800E622FBBBEA004007FF /* LBFMHomeClassifyModel.swift in Sources */,
+				C17800FA22FC1968004007FF /* LBFMClassifySubRecommendController.swift in Sources */,
+				C17800F422FC10A6004007FF /* LBFMClassifySubMenuProvider.swift in Sources */,
 				C1AAC58322FAA9E2006059A9 /* LBFMHeader.swift in Sources */,
+				C17800E222FBAE76004007FF /* LBFMHomeClassifyFooterView.swift in Sources */,
 				C1AAC54722FA79C7006059A9 /* LBFMFindController.swift in Sources */,
 				C1AAC57822FAA30A006059A9 /* WRProxy.swift in Sources */,
 				C1AAC54522FA79BF006059A9 /* LBFMMineController.swift in Sources */,
@@ -852,11 +956,15 @@
 				C1AAC54C22FAA137006059A9 /* LBFMNavigationController.swift in Sources */,
 				C1AAC54922FA79D1006059A9 /* LBFMPlayController.swift in Sources */,
 				C1AAC53D22FA78E9006059A9 /* LBFMHomeController.swift in Sources */,
+				C17800F222FC0C73004007FF /* LBFMClassifySubMenuController.swift in Sources */,
 				C1AAC58722FABA2E006059A9 /* LBFMIrregularityBasicContentView.swift in Sources */,
 				C1AAC50E22FA614C006059A9 /* AppDelegate.swift in Sources */,
 				C1AAC5BB22FAC11F006059A9 /* LBFMHomeLiveController.swift in Sources */,
+				C17800FD22FC1B10004007FF /* URefresh.swift in Sources */,
+				C17800E822FBC514004007FF /* LBFMHomeClassifyViewModel.swift in Sources */,
 				C1AAC5BF22FAC12B006059A9 /* LBFMHomeVIPController.swift in Sources */,
 				C1AAC5AF22FAC0F3006059A9 /* LBFMHomeRecommendController.swift in Sources */,
+				C17800F622FC1541004007FF /* LBFMClassifySubMenuCategoryModel.swift in Sources */,
 				C1AAC56F22FAA30A006059A9 /* LBFMCustomLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

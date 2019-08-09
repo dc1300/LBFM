@@ -25,6 +25,7 @@ class LBFMClassifySubMenuController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        loadHeaderCategoryData()
     }
 
     func loadHeaderCategoryData() {
@@ -41,7 +42,7 @@ class LBFMClassifySubMenuController: UIViewController {
                     if !self.isVipPush{
                         self.nameArray.insert("推荐", at: 0)
                     }
-                    
+                    self.setupHeaderView()
                 }
             }
         }
@@ -67,6 +68,13 @@ class LBFMClassifySubMenuController: UIViewController {
             let categoryId = self.Keywords?.last?.categoryId
             viewControllers.insert(LBFMClassifySubRecommendController(categoryId:categoryId!), at: 0)
         }
+        
+        for vc in viewControllers{
+            self.addChild(vc)
+        }
+        
+        let pageView = DNSPageView(frame: CGRect(x: 0, y: LBFMNavBarHeight, width: LBFMScreenWidth, height: LBFMScreenHeight - LBFMNavBarHeight), style: style, titles: nameArray as! [String], childViewControllers: viewControllers)
+        view.addSubview(pageView)
     }
 }
 

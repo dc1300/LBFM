@@ -24,7 +24,7 @@ class LBFMClassifySubVerticalCell: UICollectionViewCell {
     private var paidLabel:UILabel = {
         let label = UILabel()
         label.font = UIFont.systemFont(ofSize: 13)
-        label.textColor = UIColor.white
+        label.textColor = UIColor.darkGray
         label.backgroundColor = UIColor.init(red: 248, green: 210, blue: 74, alpha: 1)
         label.layer.masksToBounds = true
         label.layer.cornerRadius = 3
@@ -70,7 +70,75 @@ class LBFMClassifySubVerticalCell: UICollectionViewCell {
         return imageView
     }()
     
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        setUpLayout()
+    }
     
+    func setUpLayout(){
+        self.addSubview(self.picView)
+        self.picView.image = UIImage(named: "pic1.jpeg")
+        self.picView.snp.makeConstraints { (make) in
+            make.left.top.equalToSuperview().offset(15)
+            make.bottom.equalToSuperview().offset(-15)
+            make.width.equalTo(80)
+        }
+        
+        self.addSubview(self.paidLabel)
+        self.paidLabel.text = "完结"
+        self.paidLabel.snp.makeConstraints { (make) in
+            make.left.equalTo(self.picView.snp.right).offset(10)
+            make.top.equalTo(self.picView).offset(2)
+            make.height.equalTo(16)
+            make.width.equalTo(30)
+        }
+        
+        self.addSubview(self.titleLabel)
+        self.titleLabel.snp.makeConstraints { (make) in
+            make.left.equalTo(self.paidLabel.snp.right).offset(10)
+            make.right.equalToSuperview()
+            make.top.equalTo(self.picView)
+            make.height.equalTo(20)
+        }
+        
+        self.addSubview(self.subLabel)
+        self.subLabel.text = "HEZE"
+        self.subLabel.snp.makeConstraints { (make) in
+            make.right.height.equalTo(self.titleLabel)
+            make.left.equalTo(self.picView.snp.right).offset(10)
+            make.top.equalTo(self.titleLabel.snp.bottom).offset(10)
+        }
+        
+        self.addSubview(self.numView)
+        self.numView.snp.makeConstraints { (make) in
+            make.left.equalTo(self.subLabel)
+            make.bottom.equalToSuperview().offset(-25)
+            make.width.height.equalTo(17)
+        }
+        
+        self.addSubview(self.numLabel)
+        self.numLabel.text = "> 2.5亿 1284集"
+        self.numLabel.snp.makeConstraints { (make) in
+            make.left.equalTo(self.numView.snp.right).offset(5)
+            make.bottom.equalTo(self.numView)
+            make.width.equalTo(60)
+        }
+        
+        self.addSubview(self.tracksView)
+        self.tracksView.snp.makeConstraints { (make) in
+            make.left.equalTo(self.numLabel.snp.right).offset(5)
+            make.bottom.equalTo(self.numLabel)
+            make.width.height.equalTo(20)
+        }
+        
+        self.addSubview(self.tracksLabel)
+        self.tracksLabel.snp.makeConstraints { (make) in
+            make.left.equalTo(self.tracksView.snp.right).offset(5)
+            make.bottom.equalTo(self.tracksView)
+            make.width.equalTo(80)
+        }
+        
+    }
     
     var classifyVerticalModel:LBFMClassifyVerticalModel? {
         didSet {

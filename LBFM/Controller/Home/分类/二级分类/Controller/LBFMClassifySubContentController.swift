@@ -31,10 +31,10 @@ class LBFMClassifySubContentController: UIViewController {
         layout.minimumLineSpacing = 0
         layout.itemSize = CGSize.init(width: LBFMScreenWidth - 15, height: 120)
         let collection = UICollectionView.init(frame: CGRect.zero, collectionViewLayout: layout)
-        collection.delegate = self as! UICollectionViewDelegate
-        collection.dataSource = self as! UICollectionViewDataSource
+        collection.delegate = self as UICollectionViewDelegate
+        collection.dataSource = self as UICollectionViewDataSource
         collection.backgroundColor = UIColor.white
-        collection.register(UICollectionViewCell.self, forCellWithReuseIdentifier: LBFMClassifySubVerticalCellID)
+        collection.register(LBFMClassifySubVerticalCell.self, forCellWithReuseIdentifier: LBFMClassifySubVerticalCellID)
         collection.uHead = URefreshHeader {
             [weak self] in self?.setupLoadData()
         }

@@ -20,6 +20,15 @@
 		C17800FA22FC1968004007FF /* LBFMClassifySubRecommendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17800F922FC1968004007FF /* LBFMClassifySubRecommendController.swift */; };
 		C17800FD22FC1B10004007FF /* URefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17800FC22FC1B10004007FF /* URefresh.swift */; };
 		C17800FF22FC23DA004007FF /* LBFMClassifySubVerticalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17800FE22FC23DA004007FF /* LBFMClassifySubVerticalCell.swift */; };
+		C1A9D98D22FD1CE6007BBF35 /* LBFMPlayHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A9D98C22FD1CE6007BBF35 /* LBFMPlayHeaderView.swift */; };
+		C1A9D98F22FD1CF4007BBF35 /* LBFMPlayFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A9D98E22FD1CF4007BBF35 /* LBFMPlayFooterView.swift */; };
+		C1A9D99122FD1D14007BBF35 /* LBFMPlayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A9D99022FD1D14007BBF35 /* LBFMPlayCell.swift */; };
+		C1A9D99322FD1D23007BBF35 /* LBFMPlayCommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A9D99222FD1D23007BBF35 /* LBFMPlayCommentCell.swift */; };
+		C1A9D99522FD1D2D007BBF35 /* LBFMPlayCircleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A9D99422FD1D2D007BBF35 /* LBFMPlayCircleCell.swift */; };
+		C1A9D99722FD1D37007BBF35 /* LBFMPlayAnchorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A9D99622FD1D37007BBF35 /* LBFMPlayAnchorCell.swift */; };
+		C1A9D99922FD1D98007BBF35 /* LBFMPlayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A9D99822FD1D98007BBF35 /* LBFMPlayModel.swift */; };
+		C1A9D99B22FD1FBA007BBF35 /* LBFMPlayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A9D99A22FD1FBA007BBF35 /* LBFMPlayViewModel.swift */; };
+		C1A9D99D22FD42AC007BBF35 /* LBFMPlayProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A9D99C22FD42AC007BBF35 /* LBFMPlayProvider.swift */; };
 		C1AAC50E22FA614C006059A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC50D22FA614C006059A9 /* AppDelegate.swift */; };
 		C1AAC51322FA614C006059A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1AAC51122FA614C006059A9 /* Main.storyboard */; };
 		C1AAC51522FA614D006059A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1AAC51422FA614D006059A9 /* Assets.xcassets */; };
@@ -110,6 +119,15 @@
 		C17800F922FC1968004007FF /* LBFMClassifySubRecommendController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMClassifySubRecommendController.swift; sourceTree = "<group>"; };
 		C17800FC22FC1B10004007FF /* URefresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URefresh.swift; sourceTree = "<group>"; };
 		C17800FE22FC23DA004007FF /* LBFMClassifySubVerticalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMClassifySubVerticalCell.swift; sourceTree = "<group>"; };
+		C1A9D98C22FD1CE6007BBF35 /* LBFMPlayHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMPlayHeaderView.swift; sourceTree = "<group>"; };
+		C1A9D98E22FD1CF4007BBF35 /* LBFMPlayFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMPlayFooterView.swift; sourceTree = "<group>"; };
+		C1A9D99022FD1D14007BBF35 /* LBFMPlayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMPlayCell.swift; sourceTree = "<group>"; };
+		C1A9D99222FD1D23007BBF35 /* LBFMPlayCommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMPlayCommentCell.swift; sourceTree = "<group>"; };
+		C1A9D99422FD1D2D007BBF35 /* LBFMPlayCircleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMPlayCircleCell.swift; sourceTree = "<group>"; };
+		C1A9D99622FD1D37007BBF35 /* LBFMPlayAnchorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMPlayAnchorCell.swift; sourceTree = "<group>"; };
+		C1A9D99822FD1D98007BBF35 /* LBFMPlayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMPlayModel.swift; sourceTree = "<group>"; };
+		C1A9D99A22FD1FBA007BBF35 /* LBFMPlayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMPlayViewModel.swift; sourceTree = "<group>"; };
+		C1A9D99C22FD42AC007BBF35 /* LBFMPlayProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMPlayProvider.swift; sourceTree = "<group>"; };
 		C1AAC50A22FA614C006059A9 /* LBFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1AAC50D22FA614C006059A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1AAC51222FA614C006059A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -249,6 +267,50 @@
 			path = Refresh;
 			sourceTree = "<group>";
 		};
+		C1A9D98722FD1A7C007BBF35 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C1A9D98822FD1A84007BBF35 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C1A9D99C22FD42AC007BBF35 /* LBFMPlayProvider.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		C1A9D98922FD1A8A007BBF35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C1A9D99822FD1D98007BBF35 /* LBFMPlayModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C1A9D98A22FD1A90007BBF35 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C1A9D98C22FD1CE6007BBF35 /* LBFMPlayHeaderView.swift */,
+				C1A9D98E22FD1CF4007BBF35 /* LBFMPlayFooterView.swift */,
+				C1A9D99022FD1D14007BBF35 /* LBFMPlayCell.swift */,
+				C1A9D99222FD1D23007BBF35 /* LBFMPlayCommentCell.swift */,
+				C1A9D99422FD1D2D007BBF35 /* LBFMPlayCircleCell.swift */,
+				C1A9D99622FD1D37007BBF35 /* LBFMPlayAnchorCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C1A9D98B22FD1A96007BBF35 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C1A9D99A22FD1FBA007BBF35 /* LBFMPlayViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		C1AAC50122FA614C006059A9 = {
 			isa = PBXGroup;
 			children = (
@@ -337,6 +399,11 @@
 			isa = PBXGroup;
 			children = (
 				C1AAC54822FA79D1006059A9 /* LBFMPlayController.swift */,
+				C1A9D98B22FD1A96007BBF35 /* ViewModel */,
+				C1A9D98A22FD1A90007BBF35 /* View */,
+				C1A9D98922FD1A8A007BBF35 /* Model */,
+				C1A9D98822FD1A84007BBF35 /* API */,
+				C1A9D98722FD1A7C007BBF35 /* Controller */,
 			);
 			path = Play;
 			sourceTree = "<group>";
@@ -932,13 +999,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1A9D99922FD1D98007BBF35 /* LBFMPlayModel.swift in Sources */,
 				C1AAC57B22FAA30A006059A9 /* WRCycleScrollView.swift in Sources */,
 				C1AAC57522FAA30A006059A9 /* WRCustomNavigationBar.swift in Sources */,
+				C1A9D99B22FD1FBA007BBF35 /* LBFMPlayViewModel.swift in Sources */,
+				C1A9D99122FD1D14007BBF35 /* LBFMPlayCell.swift in Sources */,
 				C17800EA22FBC5F9004007FF /* LBFMHomeClassifProvider.swift in Sources */,
 				C17800FF22FC23DA004007FF /* LBFMClassifySubVerticalCell.swift in Sources */,
 				C17800E022FBAE6D004007FF /* LBFMHomeClassifyHeaderView.swift in Sources */,
 				C1AAC57222FAA30A006059A9 /* WRNavigationBar.swift in Sources */,
 				C1AAC57E22FAA30A006059A9 /* WRCycleCell.swift in Sources */,
+				C1A9D99322FD1D23007BBF35 /* LBFMPlayCommentCell.swift in Sources */,
 				C17800E422FBAE87004007FF /* LBFMHomeClassifyCell.swift in Sources */,
 				C17800F822FC1889004007FF /* LBFMClassifySubContentController.swift in Sources */,
 				C1AAC5B322FAC107006059A9 /* LBFMHomeClassifyController.swift in Sources */,
@@ -948,6 +1019,7 @@
 				C1AAC58322FAA9E2006059A9 /* LBFMHeader.swift in Sources */,
 				C17800E222FBAE76004007FF /* LBFMHomeClassifyFooterView.swift in Sources */,
 				C1AAC54722FA79C7006059A9 /* LBFMFindController.swift in Sources */,
+				C1A9D98F22FD1CF4007BBF35 /* LBFMPlayFooterView.swift in Sources */,
 				C1AAC57822FAA30A006059A9 /* WRProxy.swift in Sources */,
 				C1AAC54522FA79BF006059A9 /* LBFMMineController.swift in Sources */,
 				C1AAC56C22FAA30A006059A9 /* ReplicatorLayer.swift in Sources */,
@@ -956,8 +1028,12 @@
 				C1AAC54C22FAA137006059A9 /* LBFMNavigationController.swift in Sources */,
 				C1AAC54922FA79D1006059A9 /* LBFMPlayController.swift in Sources */,
 				C1AAC53D22FA78E9006059A9 /* LBFMHomeController.swift in Sources */,
+				C1A9D98D22FD1CE6007BBF35 /* LBFMPlayHeaderView.swift in Sources */,
+				C1A9D99522FD1D2D007BBF35 /* LBFMPlayCircleCell.swift in Sources */,
+				C1A9D99722FD1D37007BBF35 /* LBFMPlayAnchorCell.swift in Sources */,
 				C17800F222FC0C73004007FF /* LBFMClassifySubMenuController.swift in Sources */,
 				C1AAC58722FABA2E006059A9 /* LBFMIrregularityBasicContentView.swift in Sources */,
+				C1A9D99D22FD42AC007BBF35 /* LBFMPlayProvider.swift in Sources */,
 				C1AAC50E22FA614C006059A9 /* AppDelegate.swift in Sources */,
 				C1AAC5BB22FAC11F006059A9 /* LBFMHomeLiveController.swift in Sources */,
 				C17800FD22FC1B10004007FF /* URefresh.swift in Sources */,

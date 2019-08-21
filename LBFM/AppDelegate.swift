@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate,UITabBarControllerDelegate
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        let tabbar = self.setupTabbarStyle(delegate: self as!UITabBarControllerDelegate)
+        let tabbar = self.setupTabbarStyle(delegate: self)
         self.window?.backgroundColor = UIColor.white
         self.window?.rootViewController = tabbar
         self.window?.makeKeyAndVisible()

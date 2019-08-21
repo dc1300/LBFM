@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C16A29DC230D22AB00D4DAB4 /* LBFMClassifySubHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16A29DB230D22AB00D4DAB4 /* LBFMClassifySubHeaderView.swift */; };
+		C16A29DE230D22C100D4DAB4 /* LBFMClassifySubFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16A29DD230D22C100D4DAB4 /* LBFMClassifySubFooterView.swift */; };
+		C16A29E0230D268700D4DAB4 /* LBFMClassifySubRecommendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16A29DF230D268700D4DAB4 /* LBFMClassifySubRecommendViewModel.swift */; };
+		C16A29E2230D26E500D4DAB4 /* LBFMRecommendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16A29E1230D26E500D4DAB4 /* LBFMRecommendModel.swift */; };
+		C16A29E4230D2B2500D4DAB4 /* LBFMClassifySubHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16A29E3230D2B2500D4DAB4 /* LBFMClassifySubHeaderCell.swift */; };
+		C16A29E6230D2B6600D4DAB4 /* LBFMClassifySubCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16A29E5230D2B6600D4DAB4 /* LBFMClassifySubCategoryCell.swift */; };
+		C16A29E8230D2CBD00D4DAB4 /* LBFMClassifySubHorizontalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16A29E7230D2CBD00D4DAB4 /* LBFMClassifySubHorizontalCell.swift */; };
+		C16A29EF230D2CCA00D4DAB4 /* LBFMClassifySubModuleType4Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16A29E9230D2CC900D4DAB4 /* LBFMClassifySubModuleType4Cell.swift */; };
+		C16A29F0230D2CCA00D4DAB4 /* LBFMClassifySubModuleType20Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16A29EA230D2CC900D4DAB4 /* LBFMClassifySubModuleType20Cell.swift */; };
+		C16A29F1230D2CCA00D4DAB4 /* LBFMClassifySubModuleType16Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16A29EB230D2CC900D4DAB4 /* LBFMClassifySubModuleType16Cell.swift */; };
+		C16A29F2230D2CCA00D4DAB4 /* LBFMClassifySubModuleType17Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16A29EC230D2CC900D4DAB4 /* LBFMClassifySubModuleType17Cell.swift */; };
+		C16A29F3230D2CCA00D4DAB4 /* LBFMClassifySubModuleType23Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16A29ED230D2CC900D4DAB4 /* LBFMClassifySubModuleType23Cell.swift */; };
+		C16A29F4230D2CCA00D4DAB4 /* LBFMClassifySubModuleType19Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16A29EE230D2CC900D4DAB4 /* LBFMClassifySubModuleType19Cell.swift */; };
 		C17800E022FBAE6D004007FF /* LBFMHomeClassifyHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17800DF22FBAE6D004007FF /* LBFMHomeClassifyHeaderView.swift */; };
 		C17800E222FBAE76004007FF /* LBFMHomeClassifyFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17800E122FBAE76004007FF /* LBFMHomeClassifyFooterView.swift */; };
 		C17800E422FBAE87004007FF /* LBFMHomeClassifyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17800E322FBAE87004007FF /* LBFMHomeClassifyCell.swift */; };
@@ -106,6 +119,19 @@
 /* Begin PBXFileReference section */
 		6EA1B015D00B9429529BC6CA /* Pods-LBFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBFM.release.xcconfig"; path = "Target Support Files/Pods-LBFM/Pods-LBFM.release.xcconfig"; sourceTree = "<group>"; };
 		A34AE83B54A421F32A6A4831 /* Pods_LBFM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBFM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C16A29DB230D22AB00D4DAB4 /* LBFMClassifySubHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMClassifySubHeaderView.swift; sourceTree = "<group>"; };
+		C16A29DD230D22C100D4DAB4 /* LBFMClassifySubFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMClassifySubFooterView.swift; sourceTree = "<group>"; };
+		C16A29DF230D268700D4DAB4 /* LBFMClassifySubRecommendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMClassifySubRecommendViewModel.swift; sourceTree = "<group>"; };
+		C16A29E1230D26E500D4DAB4 /* LBFMRecommendModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBFMRecommendModel.swift; sourceTree = "<group>"; };
+		C16A29E3230D2B2500D4DAB4 /* LBFMClassifySubHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMClassifySubHeaderCell.swift; sourceTree = "<group>"; };
+		C16A29E5230D2B6600D4DAB4 /* LBFMClassifySubCategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMClassifySubCategoryCell.swift; sourceTree = "<group>"; };
+		C16A29E7230D2CBD00D4DAB4 /* LBFMClassifySubHorizontalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBFMClassifySubHorizontalCell.swift; sourceTree = "<group>"; };
+		C16A29E9230D2CC900D4DAB4 /* LBFMClassifySubModuleType4Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBFMClassifySubModuleType4Cell.swift; sourceTree = "<group>"; };
+		C16A29EA230D2CC900D4DAB4 /* LBFMClassifySubModuleType20Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBFMClassifySubModuleType20Cell.swift; sourceTree = "<group>"; };
+		C16A29EB230D2CC900D4DAB4 /* LBFMClassifySubModuleType16Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBFMClassifySubModuleType16Cell.swift; sourceTree = "<group>"; };
+		C16A29EC230D2CC900D4DAB4 /* LBFMClassifySubModuleType17Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBFMClassifySubModuleType17Cell.swift; sourceTree = "<group>"; };
+		C16A29ED230D2CC900D4DAB4 /* LBFMClassifySubModuleType23Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBFMClassifySubModuleType23Cell.swift; sourceTree = "<group>"; };
+		C16A29EE230D2CC900D4DAB4 /* LBFMClassifySubModuleType19Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBFMClassifySubModuleType19Cell.swift; sourceTree = "<group>"; };
 		C17800DF22FBAE6D004007FF /* LBFMHomeClassifyHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMHomeClassifyHeaderView.swift; sourceTree = "<group>"; };
 		C17800E122FBAE76004007FF /* LBFMHomeClassifyFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMHomeClassifyFooterView.swift; sourceTree = "<group>"; };
 		C17800E322FBAE87004007FF /* LBFMHomeClassifyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMHomeClassifyCell.swift; sourceTree = "<group>"; };
@@ -206,6 +232,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C16A29DA230D225300D4DAB4 /* 头部尾部视图 */ = {
+			isa = PBXGroup;
+			children = (
+				C16A29DB230D22AB00D4DAB4 /* LBFMClassifySubHeaderView.swift */,
+				C16A29DD230D22C100D4DAB4 /* LBFMClassifySubFooterView.swift */,
+			);
+			path = "头部尾部视图";
+			sourceTree = "<group>";
+		};
 		C17800EB22FC0C13004007FF /* 二级分类 */ = {
 			isa = PBXGroup;
 			children = (
@@ -248,6 +283,16 @@
 			isa = PBXGroup;
 			children = (
 				C17800FE22FC23DA004007FF /* LBFMClassifySubVerticalCell.swift */,
+				C16A29E3230D2B2500D4DAB4 /* LBFMClassifySubHeaderCell.swift */,
+				C16A29E5230D2B6600D4DAB4 /* LBFMClassifySubCategoryCell.swift */,
+				C16A29E7230D2CBD00D4DAB4 /* LBFMClassifySubHorizontalCell.swift */,
+				C16A29E9230D2CC900D4DAB4 /* LBFMClassifySubModuleType4Cell.swift */,
+				C16A29EB230D2CC900D4DAB4 /* LBFMClassifySubModuleType16Cell.swift */,
+				C16A29EC230D2CC900D4DAB4 /* LBFMClassifySubModuleType17Cell.swift */,
+				C16A29EE230D2CC900D4DAB4 /* LBFMClassifySubModuleType19Cell.swift */,
+				C16A29EA230D2CC900D4DAB4 /* LBFMClassifySubModuleType20Cell.swift */,
+				C16A29ED230D2CC900D4DAB4 /* LBFMClassifySubModuleType23Cell.swift */,
+				C16A29DA230D225300D4DAB4 /* 头部尾部视图 */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -255,6 +300,7 @@
 		C17800F022FC0C45004007FF /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				C16A29DF230D268700D4DAB4 /* LBFMClassifySubRecommendViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -572,6 +618,7 @@
 		C1AAC59322FABDDF006059A9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C16A29E1230D26E500D4DAB4 /* LBFMRecommendModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1002,6 +1049,7 @@
 				C1A9D99922FD1D98007BBF35 /* LBFMPlayModel.swift in Sources */,
 				C1AAC57B22FAA30A006059A9 /* WRCycleScrollView.swift in Sources */,
 				C1AAC57522FAA30A006059A9 /* WRCustomNavigationBar.swift in Sources */,
+				C16A29F3230D2CCA00D4DAB4 /* LBFMClassifySubModuleType23Cell.swift in Sources */,
 				C1A9D99B22FD1FBA007BBF35 /* LBFMPlayViewModel.swift in Sources */,
 				C1A9D99122FD1D14007BBF35 /* LBFMPlayCell.swift in Sources */,
 				C17800EA22FBC5F9004007FF /* LBFMHomeClassifProvider.swift in Sources */,
@@ -1016,32 +1064,44 @@
 				C17800E622FBBBEA004007FF /* LBFMHomeClassifyModel.swift in Sources */,
 				C17800FA22FC1968004007FF /* LBFMClassifySubRecommendController.swift in Sources */,
 				C17800F422FC10A6004007FF /* LBFMClassifySubMenuProvider.swift in Sources */,
+				C16A29E8230D2CBD00D4DAB4 /* LBFMClassifySubHorizontalCell.swift in Sources */,
 				C1AAC58322FAA9E2006059A9 /* LBFMHeader.swift in Sources */,
+				C16A29E6230D2B6600D4DAB4 /* LBFMClassifySubCategoryCell.swift in Sources */,
 				C17800E222FBAE76004007FF /* LBFMHomeClassifyFooterView.swift in Sources */,
 				C1AAC54722FA79C7006059A9 /* LBFMFindController.swift in Sources */,
 				C1A9D98F22FD1CF4007BBF35 /* LBFMPlayFooterView.swift in Sources */,
 				C1AAC57822FAA30A006059A9 /* WRProxy.swift in Sources */,
 				C1AAC54522FA79BF006059A9 /* LBFMMineController.swift in Sources */,
 				C1AAC56C22FAA30A006059A9 /* ReplicatorLayer.swift in Sources */,
+				C16A29EF230D2CCA00D4DAB4 /* LBFMClassifySubModuleType4Cell.swift in Sources */,
+				C16A29F2230D2CCA00D4DAB4 /* LBFMClassifySubModuleType17Cell.swift in Sources */,
+				C16A29DE230D22C100D4DAB4 /* LBFMClassifySubFooterView.swift in Sources */,
 				C1AAC54322FA79B4006059A9 /* LBFMListenController.swift in Sources */,
 				C1AAC5B722FAC113006059A9 /* LBFMHomeBroadcastController.swift in Sources */,
 				C1AAC54C22FAA137006059A9 /* LBFMNavigationController.swift in Sources */,
 				C1AAC54922FA79D1006059A9 /* LBFMPlayController.swift in Sources */,
 				C1AAC53D22FA78E9006059A9 /* LBFMHomeController.swift in Sources */,
+				C16A29F4230D2CCA00D4DAB4 /* LBFMClassifySubModuleType19Cell.swift in Sources */,
 				C1A9D98D22FD1CE6007BBF35 /* LBFMPlayHeaderView.swift in Sources */,
 				C1A9D99522FD1D2D007BBF35 /* LBFMPlayCircleCell.swift in Sources */,
 				C1A9D99722FD1D37007BBF35 /* LBFMPlayAnchorCell.swift in Sources */,
 				C17800F222FC0C73004007FF /* LBFMClassifySubMenuController.swift in Sources */,
 				C1AAC58722FABA2E006059A9 /* LBFMIrregularityBasicContentView.swift in Sources */,
 				C1A9D99D22FD42AC007BBF35 /* LBFMPlayProvider.swift in Sources */,
+				C16A29F0230D2CCA00D4DAB4 /* LBFMClassifySubModuleType20Cell.swift in Sources */,
 				C1AAC50E22FA614C006059A9 /* AppDelegate.swift in Sources */,
 				C1AAC5BB22FAC11F006059A9 /* LBFMHomeLiveController.swift in Sources */,
 				C17800FD22FC1B10004007FF /* URefresh.swift in Sources */,
+				C16A29F1230D2CCA00D4DAB4 /* LBFMClassifySubModuleType16Cell.swift in Sources */,
 				C17800E822FBC514004007FF /* LBFMHomeClassifyViewModel.swift in Sources */,
+				C16A29DC230D22AB00D4DAB4 /* LBFMClassifySubHeaderView.swift in Sources */,
 				C1AAC5BF22FAC12B006059A9 /* LBFMHomeVIPController.swift in Sources */,
 				C1AAC5AF22FAC0F3006059A9 /* LBFMHomeRecommendController.swift in Sources */,
 				C17800F622FC1541004007FF /* LBFMClassifySubMenuCategoryModel.swift in Sources */,
+				C16A29E4230D2B2500D4DAB4 /* LBFMClassifySubHeaderCell.swift in Sources */,
+				C16A29E2230D26E500D4DAB4 /* LBFMRecommendModel.swift in Sources */,
 				C1AAC56F22FAA30A006059A9 /* LBFMCustomLabel.swift in Sources */,
+				C16A29E0230D268700D4DAB4 /* LBFMClassifySubRecommendViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

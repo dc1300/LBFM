@@ -83,7 +83,7 @@ extension LBFMClassifySubContentController: UICollectionViewDelegate, UICollecti
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let albumId = self.classifyVerticallist?[indexPath.row].albumId ?? 0
-//        let vc = LBFMPlayController(albumId:albumId)
-//        self.navigationController?.pushViewController(vc, animated: true)
+        let vc = LBFMPlayController.init(albumId: albumId, trackUid: 0, uid: 0)
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 }

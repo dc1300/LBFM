@@ -77,6 +77,7 @@ class LBFMClassifySubRecommendController: UIViewController {
         }
         viewModel.refreshDataSource()
     }
+    
 }
 
 extension LBFMClassifySubRecommendController : UICollectionViewDelegate, UICollectionViewDataSource,UICollectionViewDelegateFlowLayout{

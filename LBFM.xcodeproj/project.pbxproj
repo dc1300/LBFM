@@ -96,6 +96,8 @@
 		C1AAC5BF22FAC12B006059A9 /* LBFMHomeVIPController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC5BE22FAC12B006059A9 /* LBFMHomeVIPController.swift */; };
 		C1AAC5C022FAC12B006059A9 /* LBFMHomeVIPController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC5BE22FAC12B006059A9 /* LBFMHomeVIPController.swift */; };
 		C1AAC5C122FAC12B006059A9 /* LBFMHomeVIPController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AAC5BE22FAC12B006059A9 /* LBFMHomeVIPController.swift */; };
+		C1D712C1230F7E0A00894B0D /* LBFMRecommendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D712C0230F7E0A00894B0D /* LBFMRecommendViewModel.swift */; };
+		C1D712C3230F7FA400894B0D /* LBFMRecommendProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D712C2230F7FA400894B0D /* LBFMRecommendProvider.swift */; };
 		CB0448BE95C063E91BF05C76 /* Pods_LBFM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A34AE83B54A421F32A6A4831 /* Pods_LBFM.framework */; };
 /* End PBXBuildFile section */
 
@@ -186,6 +188,8 @@
 		C1AAC5B622FAC113006059A9 /* LBFMHomeBroadcastController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMHomeBroadcastController.swift; sourceTree = "<group>"; };
 		C1AAC5BA22FAC11F006059A9 /* LBFMHomeLiveController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMHomeLiveController.swift; sourceTree = "<group>"; };
 		C1AAC5BE22FAC12B006059A9 /* LBFMHomeVIPController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMHomeVIPController.swift; sourceTree = "<group>"; };
+		C1D712C0230F7E0A00894B0D /* LBFMRecommendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMRecommendViewModel.swift; sourceTree = "<group>"; };
+		C1D712C2230F7FA400894B0D /* LBFMRecommendProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMRecommendProvider.swift; sourceTree = "<group>"; };
 		DAD80460D7F6D17529D43098 /* Pods-LBFM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBFM.debug.xcconfig"; path = "Target Support Files/Pods-LBFM/Pods-LBFM.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -604,6 +608,7 @@
 		C1AAC59122FABDDF006059A9 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				C1D712C0230F7E0A00894B0D /* LBFMRecommendViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -633,6 +638,7 @@
 		C1AAC59522FABDDF006059A9 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				C1D712C2230F7FA400894B0D /* LBFMRecommendProvider.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -1054,6 +1060,7 @@
 				C1A9D99122FD1D14007BBF35 /* LBFMPlayCell.swift in Sources */,
 				C17800EA22FBC5F9004007FF /* LBFMHomeClassifProvider.swift in Sources */,
 				C17800FF22FC23DA004007FF /* LBFMClassifySubVerticalCell.swift in Sources */,
+				C1D712C3230F7FA400894B0D /* LBFMRecommendProvider.swift in Sources */,
 				C17800E022FBAE6D004007FF /* LBFMHomeClassifyHeaderView.swift in Sources */,
 				C1AAC57222FAA30A006059A9 /* WRNavigationBar.swift in Sources */,
 				C1AAC57E22FAA30A006059A9 /* WRCycleCell.swift in Sources */,
@@ -1101,6 +1108,7 @@
 				C16A29E4230D2B2500D4DAB4 /* LBFMClassifySubHeaderCell.swift in Sources */,
 				C16A29E2230D26E500D4DAB4 /* LBFMRecommendModel.swift in Sources */,
 				C1AAC56F22FAA30A006059A9 /* LBFMCustomLabel.swift in Sources */,
+				C1D712C1230F7E0A00894B0D /* LBFMRecommendViewModel.swift in Sources */,
 				C16A29E0230D268700D4DAB4 /* LBFMClassifySubRecommendViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

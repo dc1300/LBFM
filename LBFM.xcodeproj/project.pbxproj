@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C12425E523167B9A00842C1C /* LBFMRecommendHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12425E423167B9A00842C1C /* LBFMRecommendHeaderCell.swift */; };
+		C12425E823167D2100842C1C /* LBFMRecommendGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12425E723167D2100842C1C /* LBFMRecommendGridCell.swift */; };
+		C12425EB23167D3C00842C1C /* LBFMRecommendNewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12425EA23167D3C00842C1C /* LBFMRecommendNewsCell.swift */; };
+		C12425EE2316810300842C1C /* LBFMRecommendHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12425ED2316810300842C1C /* LBFMRecommendHeaderView.swift */; };
+		C12425F02316810D00842C1C /* LBFMRecommendFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12425EF2316810D00842C1C /* LBFMRecommendFooterView.swift */; };
 		C16A29DC230D22AB00D4DAB4 /* LBFMClassifySubHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16A29DB230D22AB00D4DAB4 /* LBFMClassifySubHeaderView.swift */; };
 		C16A29DE230D22C100D4DAB4 /* LBFMClassifySubFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16A29DD230D22C100D4DAB4 /* LBFMClassifySubFooterView.swift */; };
 		C16A29E0230D268700D4DAB4 /* LBFMClassifySubRecommendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16A29DF230D268700D4DAB4 /* LBFMClassifySubRecommendViewModel.swift */; };
@@ -121,6 +126,11 @@
 /* Begin PBXFileReference section */
 		6EA1B015D00B9429529BC6CA /* Pods-LBFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBFM.release.xcconfig"; path = "Target Support Files/Pods-LBFM/Pods-LBFM.release.xcconfig"; sourceTree = "<group>"; };
 		A34AE83B54A421F32A6A4831 /* Pods_LBFM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBFM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C12425E423167B9A00842C1C /* LBFMRecommendHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMRecommendHeaderCell.swift; sourceTree = "<group>"; };
+		C12425E723167D2100842C1C /* LBFMRecommendGridCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBFMRecommendGridCell.swift; sourceTree = "<group>"; };
+		C12425EA23167D3C00842C1C /* LBFMRecommendNewsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBFMRecommendNewsCell.swift; sourceTree = "<group>"; };
+		C12425ED2316810300842C1C /* LBFMRecommendHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMRecommendHeaderView.swift; sourceTree = "<group>"; };
+		C12425EF2316810D00842C1C /* LBFMRecommendFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMRecommendFooterView.swift; sourceTree = "<group>"; };
 		C16A29DB230D22AB00D4DAB4 /* LBFMClassifySubHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMClassifySubHeaderView.swift; sourceTree = "<group>"; };
 		C16A29DD230D22C100D4DAB4 /* LBFMClassifySubFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMClassifySubFooterView.swift; sourceTree = "<group>"; };
 		C16A29DF230D268700D4DAB4 /* LBFMClassifySubRecommendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMClassifySubRecommendViewModel.swift; sourceTree = "<group>"; };
@@ -234,6 +244,31 @@
 				A34AE83B54A421F32A6A4831 /* Pods_LBFM.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C12425E623167D1700842C1C /* 九宫格 */ = {
+			isa = PBXGroup;
+			children = (
+				C12425E723167D2100842C1C /* LBFMRecommendGridCell.swift */,
+			);
+			path = "九宫格";
+			sourceTree = "<group>";
+		};
+		C12425E923167D3300842C1C /* NewsCell */ = {
+			isa = PBXGroup;
+			children = (
+				C12425EA23167D3C00842C1C /* LBFMRecommendNewsCell.swift */,
+			);
+			path = NewsCell;
+			sourceTree = "<group>";
+		};
+		C12425EC231680E400842C1C /* 组头尾部视图 */ = {
+			isa = PBXGroup;
+			children = (
+				C12425ED2316810300842C1C /* LBFMRecommendHeaderView.swift */,
+				C12425EF2316810D00842C1C /* LBFMRecommendFooterView.swift */,
+			);
+			path = "组头尾部视图";
 			sourceTree = "<group>";
 		};
 		C16A29DA230D225300D4DAB4 /* 头部尾部视图 */ = {
@@ -631,6 +666,10 @@
 		C1AAC59422FABDDF006059A9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C12425E423167B9A00842C1C /* LBFMRecommendHeaderCell.swift */,
+				C12425EC231680E400842C1C /* 组头尾部视图 */,
+				C12425E923167D3300842C1C /* NewsCell */,
+				C12425E623167D1700842C1C /* 九宫格 */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1055,10 +1094,12 @@
 				C1A9D99922FD1D98007BBF35 /* LBFMPlayModel.swift in Sources */,
 				C1AAC57B22FAA30A006059A9 /* WRCycleScrollView.swift in Sources */,
 				C1AAC57522FAA30A006059A9 /* WRCustomNavigationBar.swift in Sources */,
+				C12425EE2316810300842C1C /* LBFMRecommendHeaderView.swift in Sources */,
 				C16A29F3230D2CCA00D4DAB4 /* LBFMClassifySubModuleType23Cell.swift in Sources */,
 				C1A9D99B22FD1FBA007BBF35 /* LBFMPlayViewModel.swift in Sources */,
 				C1A9D99122FD1D14007BBF35 /* LBFMPlayCell.swift in Sources */,
 				C17800EA22FBC5F9004007FF /* LBFMHomeClassifProvider.swift in Sources */,
+				C12425EB23167D3C00842C1C /* LBFMRecommendNewsCell.swift in Sources */,
 				C17800FF22FC23DA004007FF /* LBFMClassifySubVerticalCell.swift in Sources */,
 				C1D712C3230F7FA400894B0D /* LBFMRecommendProvider.swift in Sources */,
 				C17800E022FBAE6D004007FF /* LBFMHomeClassifyHeaderView.swift in Sources */,
@@ -1073,6 +1114,7 @@
 				C17800F422FC10A6004007FF /* LBFMClassifySubMenuProvider.swift in Sources */,
 				C16A29E8230D2CBD00D4DAB4 /* LBFMClassifySubHorizontalCell.swift in Sources */,
 				C1AAC58322FAA9E2006059A9 /* LBFMHeader.swift in Sources */,
+				C12425F02316810D00842C1C /* LBFMRecommendFooterView.swift in Sources */,
 				C16A29E6230D2B6600D4DAB4 /* LBFMClassifySubCategoryCell.swift in Sources */,
 				C17800E222FBAE76004007FF /* LBFMHomeClassifyFooterView.swift in Sources */,
 				C1AAC54722FA79C7006059A9 /* LBFMFindController.swift in Sources */,
@@ -1099,9 +1141,11 @@
 				C1AAC50E22FA614C006059A9 /* AppDelegate.swift in Sources */,
 				C1AAC5BB22FAC11F006059A9 /* LBFMHomeLiveController.swift in Sources */,
 				C17800FD22FC1B10004007FF /* URefresh.swift in Sources */,
+				C12425E523167B9A00842C1C /* LBFMRecommendHeaderCell.swift in Sources */,
 				C16A29F1230D2CCA00D4DAB4 /* LBFMClassifySubModuleType16Cell.swift in Sources */,
 				C17800E822FBC514004007FF /* LBFMHomeClassifyViewModel.swift in Sources */,
 				C16A29DC230D22AB00D4DAB4 /* LBFMClassifySubHeaderView.swift in Sources */,
+				C12425E823167D2100842C1C /* LBFMRecommendGridCell.swift in Sources */,
 				C1AAC5BF22FAC12B006059A9 /* LBFMHomeVIPController.swift in Sources */,
 				C1AAC5AF22FAC0F3006059A9 /* LBFMHomeRecommendController.swift in Sources */,
 				C17800F622FC1541004007FF /* LBFMClassifySubMenuCategoryModel.swift in Sources */,

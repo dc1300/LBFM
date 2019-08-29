@@ -38,7 +38,6 @@ class LBFMHomeController: UIViewController {
             self.addChild(vc)
         }
         let pageView = DNSPageView.init(frame: CGRect.init(x: 0, y: LBFMNavBarHeight, width: LBFMScreenWidth, height: LBFMScreenHeight-44-LBFMNavBarHeight), style: style, titles: titles, childViewControllers: viewControllers)
-        pageView.contentView.backgroundColor = UIColor.red
         view.addSubview(pageView)
     }
 

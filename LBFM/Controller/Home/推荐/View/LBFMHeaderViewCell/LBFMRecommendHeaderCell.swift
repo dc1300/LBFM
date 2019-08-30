@@ -1,13 +1,16 @@
 //
 //  LBFMRecommendHeaderCell.swift
-//  LBFM
+//  LBFM-Swift
 //
-//  Created by 戴晨 on 2019/8/28.
-//  Copyright © 2019 戴晨. All rights reserved.
+//  Created by liubo on 2019/2/15.
+//  Copyright © 2019 刘博. All rights reserved.
 //
 
 import UIKit
 import FSPagerView
+
+
+/// 添加按钮点击代理方法
 protocol LBFMRecommendHeaderCellDelegate:NSObjectProtocol {
     func recommendHeaderBtnClick(categoryId:String,title:String,url:String)
     func recommendHeaderBannerClick(url:String)
@@ -18,16 +21,19 @@ class LBFMRecommendHeaderCell: UICollectionViewCell {
     private var square:[LBFMSquareModel]?
     private var topBuzzList:[LBFMTopBuzzModel]?
     
-    weak var delegate:LBFMRecommendHeaderCellDelegate?
+    weak var delegate : LBFMRecommendHeaderCellDelegate?
     
-    private lazy var pagerView: FSPagerView = {
-        let pagerView = FSPagerView.init()
+    private lazy var pagerView : FSPagerView = {
+
+        let pagerView = FSPagerView()
         pagerView.delegate = self
         pagerView.dataSource = self
+        pagerView.automaticSlidingInterval =  3
         pagerView.isInfinite = true
         pagerView.interitemSpacing = 15
-        pagerView.transformer = FSPagerViewTransformer.init(type: FSPagerViewTransformerType.linear)
+        pagerView.transformer = FSPagerViewTransformer(type: .linear)
         pagerView.register(FSPagerViewCell.self, forCellWithReuseIdentifier: "cell")
+        
         return pagerView
     }()
     // MARK: - 懒加载九宫格分类按钮
@@ -44,6 +50,7 @@ class LBFMRecommendHeaderCell: UICollectionViewCell {
         collectionView.register(LBFMRecommendNewsCell.self, forCellWithReuseIdentifier: "LBFMRecommendNewsCell")
         return collectionView
     }()
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         /// 设置布局
@@ -110,8 +117,6 @@ extension LBFMRecommendHeaderCell:FSPagerViewDelegate,FSPagerViewDataSource{
         delegate?.recommendHeaderBannerClick(url: url)
     }
 }
-
-
 extension LBFMRecommendHeaderCell: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 2
@@ -195,3 +200,4 @@ extension LBFMRecommendHeaderCell: UICollectionViewDelegate, UICollectionViewDat
         return params["category_id"] as! String
     }
 }
+

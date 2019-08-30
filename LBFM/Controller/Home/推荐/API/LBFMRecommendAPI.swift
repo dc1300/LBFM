@@ -1,9 +1,9 @@
 //
-//  LBFMRecommendProvider.swift
-//  LBFM
+//  LBFMRecommendAPI.swift
+//  LBFM-Swift
 //
-//  Created by 戴晨 on 2019/8/23.
-//  Copyright © 2019 戴晨. All rights reserved.
+//  Created by liubo on 2019/2/11.
+//  Copyright © 2019 刘博. All rights reserved.
 //
 
 import Foundation
@@ -194,3 +194,4 @@ extension LBFMRecommendAPI: TargetType {
     var sampleData: Data { return "".data(using: String.Encoding.utf8)! }
     var headers: [String : String]? { return nil }
 }
+

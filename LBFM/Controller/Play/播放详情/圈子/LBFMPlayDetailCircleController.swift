@@ -1,19 +1,15 @@
 //
-//  LBFMHomeVIPController.swift
+//  LBFMPlayDetailCircleController.swift
 //  LBFM
 //
-//  Created by 戴晨 on 2019/8/7.
+//  Created by 戴晨 on 2019/9/18.
 //  Copyright © 2019 戴晨. All rights reserved.
 //
 
 import UIKit
 
-class LBFMHomeVIPController: UIViewController {
-    // - 上页面传过来请求接口必须的参数
-    convenience init(isRecommendPush:Bool = false) {
-        self.init()
-//        self.tableView.frame = CGRect(x:0,y:0,width:LBFMScreenWidth,height:LBFMScreenHeight)
-    }
+class LBFMPlayDetailCircleController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
 

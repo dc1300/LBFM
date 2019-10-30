@@ -13,10 +13,13 @@ class LBFMPlayDetailIntroController: UIViewController,LTTableViewProtocal {
     private var playDetailAlbum:LBFMPlayDetailAlbumModel?
     private var playDetailUser:LBFMPlayDetailUserModel?
     
+    private let LBFMPlayContentIntroCellID = "LBFMPlayContentIntroCell"
+    private let LBFMPlayAnchorIntroCellID  = "LBFMPlayAnchorIntroCell"
+    
     private lazy var tableView : UITableView = {
-        let tableView = tableViewConfig(CGRect.init(x: 0, y: 0, width: LBFMScreenWidth, height: LBFMScreenHeight), self as! UITableViewDelegate, self as! UITableViewDataSource, nil)
-        tableView.register(LBFMPlayContentIntroCell.self, forCellReuseIdentifier: "LBFMPlayContentIntroCellID")
-        tableView.register(LBFMPlayAnchorIntroCell.self, forCellReuseIdentifier: "LBFMPlayAnchorIntroCellID")
+        let tableView = tableViewConfig(CGRect.init(x: 0, y: 0, width: LBFMScreenWidth, height: LBFMScreenHeight), self as UITableViewDelegate, self as UITableViewDataSource, nil)
+        tableView.register(LBFMPlayContentIntroCell.self, forCellReuseIdentifier: LBFMPlayContentIntroCellID)
+        tableView.register(LBFMPlayAnchorIntroCell.self, forCellReuseIdentifier: LBFMPlayAnchorIntroCellID)
         return tableView
     }()
     override func viewDidLoad() {
@@ -65,7 +68,17 @@ extension LBFMPlayDetailIntroController : UITableViewDelegate, UITableViewDataSo
         return 1
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
+        if indexPath.section == 0 {
+            let cell : LBFMPlayContentIntroCell = tableView.dequeueReusableCell(withIdentifier: LBFMPlayContentIntroCellID, for: indexPath) as! LBFMPlayContentIntroCell
+            cell.selectionStyle = UITableViewCell.SelectionStyle.none
+            cell.playDetailAlbumModel = self.playDetailAlbumModel
+            return cell
+        }else{
+            let cell : LBFMPlayAnchorIntroCell = tableView.dequeueReusableCell(withIdentifier: LBFMPlayAnchorIntroCellID, for: indexPath) as! LBFMPlayAnchorIntroCell
+            cell.playDetailUserModel = self.playDetailUserModel
+            cell.selectionStyle = UITableViewCell.SelectionStyle.none
+            return cell
+        }
     }
     
 }

@@ -122,6 +122,7 @@
 		C1B8D34D2318FB5500EACFEE /* LBFMWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B8D34C2318FB5500EACFEE /* LBFMWebViewController.swift */; };
 		C1BDE4EC23594B6A00317FAC /* LBFMPlayContentIntroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BDE4EB23594B6A00317FAC /* LBFMPlayContentIntroCell.swift */; };
 		C1BDE4EE2359500D00317FAC /* LBFMPlayAnchorIntroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BDE4ED2359500D00317FAC /* LBFMPlayAnchorIntroCell.swift */; };
+		C1E3AED12367E8B8001FF567 /* LBFMPlayDetailLikeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E3AED02367E8B8001FF567 /* LBFMPlayDetailLikeCell.swift */; };
 		C1EEC865232F344100C9E6CC /* LBFMHomeGuessYouLikeMoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EEC864232F344100C9E6CC /* LBFMHomeGuessYouLikeMoreController.swift */; };
 		C1EEC86C232F3FC000C9E6CC /* LBFMPlayDetailProgramController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EEC86B232F3FC000C9E6CC /* LBFMPlayDetailProgramController.swift */; };
 		C1EEC87D232F583900C9E6CC /* LBFMPlayDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EEC87C232F583900C9E6CC /* LBFMPlayDetailModel.swift */; };
@@ -243,6 +244,7 @@
 		C1B8D34C2318FB5500EACFEE /* LBFMWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMWebViewController.swift; sourceTree = "<group>"; };
 		C1BDE4EB23594B6A00317FAC /* LBFMPlayContentIntroCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMPlayContentIntroCell.swift; sourceTree = "<group>"; };
 		C1BDE4ED2359500D00317FAC /* LBFMPlayAnchorIntroCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMPlayAnchorIntroCell.swift; sourceTree = "<group>"; };
+		C1E3AED02367E8B8001FF567 /* LBFMPlayDetailLikeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMPlayDetailLikeCell.swift; sourceTree = "<group>"; };
 		C1EEC864232F344100C9E6CC /* LBFMHomeGuessYouLikeMoreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMHomeGuessYouLikeMoreController.swift; sourceTree = "<group>"; };
 		C1EEC86B232F3FC000C9E6CC /* LBFMPlayDetailProgramController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBFMPlayDetailProgramController.swift; sourceTree = "<group>"; };
 		C1EEC87C232F583900C9E6CC /* LBFMPlayDetailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBFMPlayDetailModel.swift; sourceTree = "<group>"; };
@@ -1123,6 +1125,7 @@
 		C1EEC875232F402400C9E6CC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C1E3AED02367E8B8001FF567 /* LBFMPlayDetailLikeCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1448,6 +1451,7 @@
 				C1A3EAB02331D322007D5BF9 /* LBFMPlayDetailHeaderView.swift in Sources */,
 				C16A29F4230D2CCA00D4DAB4 /* LBFMClassifySubModuleType19Cell.swift in Sources */,
 				C1A9D98D22FD1CE6007BBF35 /* LBFMPlayHeaderView.swift in Sources */,
+				C1E3AED12367E8B8001FF567 /* LBFMPlayDetailLikeCell.swift in Sources */,
 				C1A9D99522FD1D2D007BBF35 /* LBFMPlayCircleCell.swift in Sources */,
 				C1A9D99722FD1D37007BBF35 /* LBFMPlayAnchorCell.swift in Sources */,
 				C1BDE4EC23594B6A00317FAC /* LBFMPlayContentIntroCell.swift in Sources */,

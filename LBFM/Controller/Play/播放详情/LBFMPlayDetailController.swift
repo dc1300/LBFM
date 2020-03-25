@@ -11,7 +11,10 @@ import LTScrollView
 import HandyJSON
 import SwiftyJSON
 
+
+
 class LBFMPlayDetailController: UIViewController {
+
     // 外部传值请求接口
     private var albumId: Int = 0
     
